@@ -32,7 +32,51 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.table-chart-wrapper {
+  display: flex;
+}
+
+.chart-container {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.App {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #2196f3;
+  /* Add your desired color here */
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.app-container {
+  margin: 80px;
 }
